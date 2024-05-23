@@ -24,3 +24,22 @@ img {
   justify-content: center;
   background: #eee;
 }
+/* bel's solution after this point */
+
+body {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.title {
+  margin-bottom: 32px;
+}
+ul{
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+.plant1, .plant2, .plant3, .plant4{
+  max-width: 200px;
+}
